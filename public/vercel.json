@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    {
+      "source": "/old-route",
+      "destination": "/new-route"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/old-path",
+      "destination": "/new-path",
+      "statusCode": 301
+    }
+  ]
+}

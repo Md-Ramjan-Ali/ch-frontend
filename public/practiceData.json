@@ -1,0 +1,250 @@
+// practiceData.json
+{
+  "lessons": [
+    {
+      "id": 51,
+      "title": "Use simple but natural vocabulary",
+      "type": "READING",
+      "difficulty": "B1",
+      "provider": "OPENAI",
+      "isPublished": true,
+      "createdAt": "2025-12-15T13:43:12.021Z",
+      "estimatedDuration": 8,
+      "icon": "📖",
+      "backgroundColor": "bg-blue-50",
+      "iconBackground": "bg-gradient-to-r from-[#0B5FFF] to-[#6C9AF0]",
+      "questionSets": [
+        {
+          "id": 26,
+          "lessonId": 51,
+          "subCategoryType": "MAIN_PASSAGE",
+          "prompt": "Generate a clear and engaging B1-level reading passage...",
+          "content": {
+            "prompt": "Generate a clear and engaging B1-level reading passage...",
+            "content": {
+              "passage": "Exploring New Hobbies\n\nMany adults find it challenging to discover new hobbies as they get older...",
+              "questions": [
+                {
+                  "answer": "B",
+                  "options": [
+                    "A. It helps with relaxation",
+                    "B. It improves memory and concentration",
+                    "C. It makes you physically stronger",
+                    "D. It saves money on entertainment"
+                  ],
+                  "question": "What is one benefit of learning to play a musical instrument mentioned in the passage?"
+                }
+              ]
+            }
+          },
+          "createdAt": "2025-12-15T13:44:31.200Z"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Include the correct answers separately.",
+      "type": "WRITING",
+      "difficulty": "B1",
+      "provider": "GROK",
+      "isPublished": true,
+      "createdAt": "2025-12-15T13:46:44.385Z",
+      "estimatedDuration": 10,
+      "icon": "✍️",
+      "backgroundColor": "bg-green-50",
+      "iconBackground": "bg-gradient-to-r from-[#0E9F6E] to-[#11D090]",
+      "questionSets": [
+        {
+          "id": 32,
+          "lessonId": 53,
+          "subCategoryType": "SHORT_ESSAY",
+          "prompt": "Generate a B1-level writing task...",
+          "content": {
+            "tips": [
+              "Start your essay with a clear introduction...",
+              "Organize your essay into paragraphs..."
+            ],
+            "type": "short_essay",
+            "prompt": "Generate a B1-level writing task...",
+            "provider": "grok"
+          },
+          "createdAt": "2025-12-15T13:47:39.858Z"
+        },
+        {
+          "id": 30,
+          "lessonId": 53,
+          "subCategoryType": "GRAMMAR_PRACTICE",
+          "prompt": "Generate a B1-level grammar exercise...",
+          "content": {
+            "type": "grammar_practice",
+            "prompt": "Generate a B1-level grammar exercise...",
+            "provider": "grok",
+            "questions": [
+              {
+                "answer": "B",
+                "options": [
+                  "She goes to the store yesterday.",
+                  "She went to the store yesterday.",
+                  "She has gone to the store yesterday.",
+                  "She is going to the store yesterday."
+                ],
+                "sentence": "She _____ to the store yesterday."
+              }
+            ]
+          },
+          "createdAt": "2025-12-15T13:47:02.890Z"
+        },
+        {
+          "id": 31,
+          "lessonId": 53,
+          "subCategoryType": "COMPLETE_THE_SENTENCES",
+          "prompt": "Generate a B1-level sentence completion exercise...",
+          "content": {
+            "type": "sentence_completion",
+            "prompt": "Generate a B1-level sentence completion exercise...",
+            "provider": "grok",
+            "questions": [
+              {
+                "hint": "Third person singular present tense of 'andare'",
+                "answer": "va",
+                "sentence": "Maria ___ (andare) al cinema ogni venerdì sera."
+              }
+            ]
+          },
+          "createdAt": "2025-12-15T13:47:22.277Z"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "title": "English suitable for audio narration.",
+      "type": "LISTENING",
+      "difficulty": "B1",
+      "provider": "OPENAI",
+      "isPublished": true,
+      "createdAt": "2025-12-15T13:44:59.951Z",
+      "estimatedDuration": 8,
+      "icon": "🎧",
+      "backgroundColor": "bg-orange-50",
+      "iconBackground": "bg-gradient-to-r from-[#FF7E5F] to-[#FEB47B]",
+      "questionSets": [
+        {
+          "id": 27,
+          "lessonId": 52,
+          "subCategoryType": "AUDIO_COMPREHENSION",
+          "prompt": "Generate a B1-level listening script...",
+          "content": {
+            "passage": "Hi, my name is Sarah, and I'm a graphic designer living in London...",
+            "questions": [
+              {
+                "answer": "A",
+                "options": [
+                  "A. Graphic designer",
+                  "B. Baker",
+                  "C. Coffee shop owner",
+                  "D. Chef"
+                ],
+                "question": "What is Sarah's profession?"
+              }
+            ]
+          },
+          "createdAt": "2025-12-15T13:45:33.864Z"
+        },
+        {
+          "id": 28,
+          "lessonId": 52,
+          "subCategoryType": "DICTATION_EXERCISE",
+          "prompt": "Generate a B1-level dictation exercise...",
+          "content": {
+            "dictation": "She often walks to school in the morning. They are planning a trip..."
+          },
+          "createdAt": "2025-12-15T13:45:58.380Z"
+        },
+        {
+          "id": 29,
+          "lessonId": 52,
+          "subCategoryType": "DIALOGUE_SEQUENCING",
+          "prompt": "Generate a short B1-level dialogue...",
+          "content": {
+            "dialogue": "Anna: Hi, James. How was your weekend?\nJames: Hi, Anna. It was great! I went hiking...",
+            "scrambled": [
+              "Anna: I'd love to do that sometime. Maybe you can take me next time?",
+              "James: Hi, Anna. It was great! I went hiking in the mountains."
+            ]
+          },
+          "createdAt": "2025-12-15T13:46:18.260Z"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Encourage full spoken responses.",
+      "type": "SPEAKING",
+      "difficulty": "B1",
+      "provider": "GROK",
+      "isPublished": true,
+      "createdAt": "2025-12-15T13:47:56.307Z",
+      "estimatedDuration": 12,
+      "icon": "🗣️",
+      "backgroundColor": "bg-red-50",
+      "iconBackground": "bg-gradient-to-r from-[#BA0BFF] to-[#E19FFB]",
+      "questionSets": [
+        {
+          "id": 33,
+          "lessonId": 54,
+          "subCategoryType": "READING_ALOUD",
+          "prompt": "Generate a B1-level conversation practice task...",
+          "content": {
+            "title": "Una Giornata a Roma",
+            "italian_text": "Ciao, sono a Roma per la prima volta! Questa città è piena di storia...",
+            "english_translation": "Hello, I'm in Rome for the first time! This city is full of history..."
+          },
+          "createdAt": "2025-12-15T13:48:11.591Z"
+        },
+        {
+          "id": 34,
+          "lessonId": 54,
+          "subCategoryType": "CONVERSATION_PRACTICE",
+          "prompt": "Generate a short B1-level text for reading aloud...",
+          "content": {
+            "dialogue": [
+              {
+                "english": "Hi, how are you today?",
+                "italian": "Ciao, come stai oggi?",
+                "speaker": "Person A",
+                "phonetic": "CHOW, KOH-meh STAI OH-jee?"
+              }
+            ]
+          },
+          "createdAt": "2025-12-15T13:48:36.461Z"
+        },
+        {
+          "id": 35,
+          "lessonId": 54,
+          "subCategoryType": "PRONUNCIATION_PRACTICE",
+          "prompt": "Generate a B1-level pronunciation exercise...",
+          "content": {
+            "phrase": "Ciao, come stai?",
+            "phonetic": "CHOW, KO-meh STAI",
+            "translation": "Hello, how are you?"
+          },
+          "createdAt": "2025-12-15T13:48:53.736Z"
+        }
+      ]
+    }
+  ],
+  "userProgress": {
+    "completedLessons": [],
+    "lessonProgress": {},
+    "totalTimeSpent": 0,
+    "averageAccuracy": 0,
+    "streakDays": 0
+  },
+  "settings": {
+    "dailyGoalMinutes": 30,
+    "notifications": true,
+    "autoPlayAudio": true,
+    "showHints": true,
+    "difficultyLevel": "B1"
+  }
+}
